@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <img src="unnamed.jpg" alt="My Photo">
+            <h1><span class="first-name">Jesus</span> <span class="last-name">Gatica</span></h1>
+        </div>
+        <div class="center">
+            <ul>
+                
+                <li><a href="https://benjabenjitaa.github.io/Zona-de-Sacrificio/">Proyectos</a></li>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="contactme.html" class="btn" id="contact-me">Contactame </a>
+        </div>
+    </nav>
+
+    <div class="containerform">
+        <h2>Contacto</h2>
+        <form action="/submit" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn submit-btn">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
